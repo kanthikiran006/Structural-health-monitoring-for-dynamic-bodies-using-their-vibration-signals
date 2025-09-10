@@ -33,6 +33,27 @@ Feature Extraction: Calculate the energy of each sample and use EMD to potential
 Analysis: Use histograms to compare the energy distribution of normal vs. failure samples, demonstrating a clear difference that can be used for classification.
 
 
+---
+
+### Algorithms to be implemented
+
+Random Forest: Handles feature interactions well, provides feature importance 
+
+XGBoost/LightGBM: Gradient boosting for complex pattern recognition 
+
+Support Vector Machines: Effective for high-dimensional feature spaces 
+
+Deep Learning Advanced Models For sophisticated pattern recognition: 
+
+1D-CNN: Convolutional networks for local pattern detection in time series 
+
+LSTM/BiLSTM: Recurrent networks for temporal dependency modeling
+
+Hybrid CNN-LSTM: Combined spatial and temporal feature extraction
+
+
+---
+
 ### Installation
 
 To run this notebook, you will need the following Python libraries. You can install them using `pip`:
