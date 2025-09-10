@@ -1,4 +1,4 @@
-# Metro Vibration Analysis & Fault Detection
+# Structural health monitoring for dynamic bodies using their vibration signals
 
 This project utilizes the **Empirical Mode Decomposition (EMD)** technique to analyze vibration data from a metro system and detect potential component failures.
 
