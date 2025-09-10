@@ -20,7 +20,7 @@ Vibration signals from machinery can indicate its health. This project processes
 
 ---
 
-###Methodology
+### Methodology
 
 The project follows these main steps:
 
