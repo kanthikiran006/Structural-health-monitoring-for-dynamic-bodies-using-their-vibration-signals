@@ -6,8 +6,6 @@ This project utilizes the **Empirical Mode Decomposition (EMD)** technique to an
 
 -   [Project Overview](#project-overview)
 -   [Installation](#installation)
--   [Usage](#usage)
--   [Data](#data)
 -   [Methodology](#methodology)
 -   [Key Steps in the Code](#key-steps-in-the-code)
 
@@ -27,3 +25,18 @@ To run this notebook, you will need the following Python libraries. You can inst
 
 ```bash
 pip install pandas numpy EMD-signal gdown
+
+
+---
+
+###Methodology
+
+The project follows these main steps:
+
+Data Loading and Visualization: Load the raw data and plot it to visually identify differences between normal and failure signals.
+
+Signal Windowing: Divide the long signal streams into smaller, fixed-size windows to create individual samples for analysis.
+
+Feature Extraction: Calculate the energy of each sample and use EMD to potentially extract more detailed features from the signal's components.
+
+Analysis: Use histograms to compare the energy distribution of normal vs. failure samples, demonstrating a clear difference that can be used for classification.
